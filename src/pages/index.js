@@ -63,7 +63,7 @@ const IndexPage = () => (
                  marginRight:'auto'
                 }}>
                 <h2 style={{fontSize: '40px', padding: '10px'}}>¿Quien soy?</h2>
-                <div><img src={rodrigoSnow} style={{height:"400px", borderRadius:"5px", textAlign:"center", margin:'10px'}}></img>cobo</div>
+                <div><img src={rodrigoSnow} style={{height:"400px", borderRadius:"5px", textAlign:"center", margin:'10px'}}></img></div>
       </div>
 
     </div>
