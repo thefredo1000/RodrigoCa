@@ -1,0 +1,85 @@
+h1 {
+    font-size: 60px;
+    color: #090909;
+}
+
+.imUrFav {
+
+    font-family: 'Catamaran', 'source sans pro';
+    
+
+}
+.introVideo {
+
+    height: 675px;
+
+}
+@media screen and (max-width:855px) {
+ 
+    h1 {
+      font-size: 60px;
+    }
+    .introVideo {
+
+        height: 600px;
+
+    }
+     
+    }
+    @media screen and (max-width:750px) {
+     
+        h1 {
+          font-size: 50px;
+        }
+        .introVideo {
+    
+            height: 500px;
+    
+        }
+         
+         
+        }
+@media screen and (max-width:716px) {
+ 
+    h1 {
+      font-size: 40px;
+    }
+    .introVideo {
+
+        height: 400px;
+
+    }
+     
+     
+    }
+@media screen and (max-width:581px) {
+     
+   h1 {
+        font-size: 30px;
+   }
+         
+    h5 {
+        font-size: 10px;
+      }
+      .introVideo {
+  
+          height: 300px;
+  
+      }
+       
+}
+
+@media screen and (max-width:442px) {
+     
+    h1 {
+         font-size: 20px;
+    }
+          
+     
+ }
+
+.intro2 {
+
+    height: '1000px';
+
+}
