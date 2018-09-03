@@ -24,7 +24,7 @@ const IndexPage = () => (
 
         <div className="introVideo"
     style={{
-      margin:'0',}}>
+      margin:'0px',}}>
          <div style={{
                  backgroundColor:'#CDCFD0',
                  paddingTop:'70px',}}>
