@@ -29,7 +29,7 @@ h1 {
     @media screen and (max-width:750px) {
      
         h1 {
-          font-size: 60px;
+          font-size: 50px;
         }
         .introVideo {
     
@@ -42,7 +42,7 @@ h1 {
 @media screen and (max-width:716px) {
  
     h1 {
-      font-size: 60px;
+      font-size: 40px;
     }
     .introVideo {
 
@@ -61,7 +61,7 @@ h1 {
 @media screen and (max-width:581px) {
      
    h1 {
-        font-size: 30px;
+        font-size: 40px;
    }
          
     h5 {
@@ -78,7 +78,7 @@ h1 {
 @media screen and (max-width:442px) {
      
     h1 {
-         font-size: 20px;
+         font-size: 40px;
     }
           
      

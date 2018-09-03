@@ -33,7 +33,7 @@ const IndexPage = () => (
       margin: '0 auto',
       maxWidth: 1300,
       maxHeight: '150px',
-      padding: '1rem 1.0875rem 1.45rem',
+      padding: '1rem 1.0875rem 1rem',
       paddingTop: '2.5rem',
       marginBottom:'0'
     }}> 
