@@ -8,7 +8,7 @@ const Header = ({ siteTitle }) => (
     style={{
       background: '#FFC03A',
       width: '100%',
-      paddingTop: '5px',
+      paddingTop: '6px',
       paddingBottom: '12px'
     }}
   >
