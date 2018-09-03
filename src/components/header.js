@@ -6,7 +6,7 @@ const Header = ({ siteTitle }) => (
   <div 
   id='headerHeight'
     style={{
-      background: '#FFC03A',
+      background: '#000009',
       width: '100%',
       paddingTop: '6px',
       paddingBottom: '12px'
@@ -19,11 +19,11 @@ const Header = ({ siteTitle }) => (
       }}
     >
       <h1 style={{ margin: 0,
-            fontFamily: 'Oswald',}}>
+            fontFamily: 'Questrial',}}>
         <Link className='headerText'
           to="/"
           style={{
-            color: '#0C0B04',
+            color: '#F2F2F2',
             textDecoration: 'none',
             margin: '1rem 1.0875rem 1rem'
           }}

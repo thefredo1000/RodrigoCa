@@ -4,17 +4,29 @@ import React from 'react'
 import './index.css'
 import { Parallax, Background } from 'react-parallax';
 import rodrigoSnow from '../images/meinthesnow.jpg';
+import logo from '../images/logo.png';
 
 
 const IndexPage = () => (
 
 
   <div>
-    <div className="introVideo"
+
+    <Parallax    strength={-200}  bgImage={require('../images/rodrigoblackandwhite.png')}>
+
+    <div style={{height:'805px'}}>                
+    
+    <div ><img src={logo} style={{height:"400px", borderRadius:"0px", textAlign:"center", margin:'200px 475px', }}></img></div>
+    
+    </div>
+
+    </Parallax>
+
+        <div className="introVideo"
     style={{
       margin:'0',}}>
          <div style={{
-                 backgroundColor:'#f2f2f5',
+                 backgroundColor:'#CDCFD0',
                  paddingTop:'70px',}}>
     <div style={{
                  maxWidth:'960px',
@@ -27,7 +39,6 @@ const IndexPage = () => (
 
     </div>
     </div>
-
     <Parallax
     blur={{ min: -0, max: 0 }}
     bgImage={require('../images/rodrigobackground2.png')}
