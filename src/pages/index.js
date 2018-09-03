@@ -32,9 +32,9 @@ const IndexPage = () => (
     style={{
       margin: '0 auto',
       maxWidth: 1300,
-      maxHeight: '500px',
+      maxHeight: '150px',
       padding: '1rem 1.0875rem 1.45rem',
-      paddingTop: '3rem',
+      paddingTop: '2.5rem',
       marginBottom:'0'
     }}> 
 
