@@ -19,7 +19,7 @@ const IndexPage = () => (
 
     <Parallax
     blur={{ min: -20, max: 20 }}
-    bgImage={require('../images/rodrigobackground.png')}
+    bgImage={require('../images/rodrigobackground2.png')}
     bgImageAlt="rorris"
     strength={100}
     bgStyle= {{
@@ -27,14 +27,7 @@ const IndexPage = () => (
 
     }}
     >
-      <Parallax
-    blur={{ min: -2, max: 2 }}
-    bgImage={require('../images/whitefrontground.png')}
-    bgImageAlt="rorris"
-    strength={500}
-    bgWidth='auto'
-    bgHeight='1000px'
-    >
+      
     <div 
     style={{
       margin: '0 auto',
@@ -49,8 +42,7 @@ const IndexPage = () => (
           <h1 className='imUrFav'>ABOUT ME...</h1>
         </div>
 
-    </div>
-     </Parallax>        
+    </div>   
      </Parallax>
 
     <div style={{height:'1000px',

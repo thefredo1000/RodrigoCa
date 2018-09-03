@@ -1,11 +1,12 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+
 const Header = ({ siteTitle }) => (
   <div 
   id='headerHeight'
     style={{
-      background: '#199c05',
+      background: '#FFC03A',
       width: '100%',
     }}
   >
@@ -14,20 +15,17 @@ const Header = ({ siteTitle }) => (
         margin: '0 auto',
         maxWidth: 960,
         maxHeight: 200,
-        padding: '1.45rem 1.0875rem',
-        paddingTop: '1rem',
       }}
     >
       <h1 style={{ margin: 0,
-            textAlign: 'center',
-            fontFamily: 'Catamaran'}}>
-        <Link id='headerText'
+            fontFamily: 'Oswald',}}>
+        <Link className='headerText'
           to="/"
           style={{
-            color: '#f2f2f5',
+            color: '#0C0B04',
             textDecoration: 'none',
-            fontSize: '50px',
-
+            fontSize: '45px',
+            marginTop: '-5px'
           }}
         >
           {siteTitle}
