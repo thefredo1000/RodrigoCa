@@ -8,13 +8,14 @@ const Header = ({ siteTitle }) => (
     style={{
       background: '#FFC03A',
       width: '100%',
+      paddingTop: '5px',
+      paddingBottom: '12px'
     }}
   >
     <div 
       style={{
         margin: '0 auto',
-        maxWidth: 960,
-        maxHeight: 200,
+        maxWidth: 1300,
       }}
     >
       <h1 style={{ margin: 0,
@@ -24,8 +25,7 @@ const Header = ({ siteTitle }) => (
           style={{
             color: '#0C0B04',
             textDecoration: 'none',
-            fontSize: '45px',
-            marginTop: '-5px'
+            margin: '1rem 1.0875rem 1rem'
           }}
         >
           {siteTitle}

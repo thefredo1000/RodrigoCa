@@ -1,5 +1,5 @@
 h1 {
-    font-size: 60px;
+    font-size: 70px;
     color: #EAF2EF;
 }
 
@@ -9,20 +9,10 @@ h1 {
     
 
 }
-.introVideo {
-
-    height: 675px;
-
-}
 @media screen and (max-width:855px) {
  
     h1 {
       font-size: 60px;
-    }
-    .introVideo {
-
-        height: 600px;
-
     }
      
     }
@@ -31,23 +21,11 @@ h1 {
         h1 {
           font-size: 50px;
         }
-        .introVideo {
-    
-            height: 500px;
-    
-        }
-         
-         
         }
 @media screen and (max-width:716px) {
  
     h1 {
       font-size: 40px;
-    }
-    .introVideo {
-
-        height: 400px;
-
     }
     .aboutMe {
 
@@ -66,11 +44,6 @@ h1 {
          
     h5 {
         font-size: 10px;
-      }
-      .introVideo {
-  
-          height: 300px;
-  
       }
        
 }
