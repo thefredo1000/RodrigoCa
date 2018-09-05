@@ -3,7 +3,7 @@ import React from 'react'
 
 import './index.css'
 import { Parallax, Background } from 'react-parallax';
-import rodrigoSnow from '../images/meinthesnow.jpg';
+import rodrigoSnow from '../images/meinthesnowbnw.png';
 import logo from '../images/logo.png';
 
 
@@ -24,9 +24,11 @@ const IndexPage = () => (
       margin: 'auto auto',
       maxWidth: 1300,
       paddingTop: '10%',
-      paddingBottom: '10%',
+      paddingBottom: '8%',
+      paddingLeft: '5%',
+      paddingRight: '5%',
     }}>
-    <img className="myLogo" src={logo} style={{maxHeight:'530px', borderRadius:"0px", textAlign:"center",}}></img></div>
+    <img className="myLogo" src={logo} style={{maxHeight:'530px', borderRadius:"0px", textAlign:"left",}}></img></div>
     
     </div>
 
@@ -36,15 +38,25 @@ const IndexPage = () => (
     style={{
       margin:'0px',}}>
          <div style={{
-                 backgroundColor:'#CDCFD0',
-                 paddingTop:'70px',}}>
+                 backgroundColor:'#FFFFFF',
+                 paddingTop:'50px',}}>
     <div style={{
                  maxWidth:'960px',
                  marginLeft:'auto',
                  marginRight:'auto',
                 }}>
-                <h2 style={{fontSize: '40px', padding: '10px'}}>¿Quien soy?</h2>
-                <div><img src={rodrigoSnow} style={{height:"400px", borderRadius:"5px", textAlign:"center", margin:'10px'}}></img></div>
+                <h2 style={{fontSize: '50px', padding: '10px'}}>Who am I?</h2>
+                <div style={{
+                
+                justifyContent: 'center',
+                display: 'flex',
+                }}><div
+                  style={{alignItems:'center',}}
+                
+                ><img src={rodrigoSnow} style={{maxHeight:"400px", borderRadius:"5px", textAlign:"center", margin:'10px'}}></img></div>
+                <div><br></br><h3>Im a cool kid</h3>
+                <p>I am a young programmer</p></div>
+                </div>
       </div>
 
     </div>
@@ -84,7 +96,7 @@ const IndexPage = () => (
                  marginLeft:'auto',
                  marginRight:'auto'
                 }}>
-                <h2 style={{fontSize: '40px', padding: '10px'}}>¿Quien soy?</h2>
+                <h2 style={{fontSize: '40px', padding: '10px'}}>Who am I?</h2>
                 <div><img src={rodrigoSnow} style={{height:"400px", borderRadius:"5px", textAlign:"center", margin:'10px'}}></img></div>
       </div>
 
@@ -92,5 +104,5 @@ const IndexPage = () => (
     </div>
   
 )
-
+console.log("🅡🅞🅓🅡🅘🅖🅞🅒🅐.🅢🅐🅛🅔 𝖜𝖆𝖘 𝖍𝖊𝖗𝖊 :)")
 export default IndexPage

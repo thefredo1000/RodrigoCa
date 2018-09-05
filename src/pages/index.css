@@ -9,6 +9,14 @@ h1 {
     
 
 }
+
+h2 {
+
+    font-family: 'Ubuntu', sans-serif;
+    color: #050507;
+
+}
+
 @media screen and (max-width:855px) {
  
     h1 {
