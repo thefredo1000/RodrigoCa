@@ -51,6 +51,10 @@ h2 {
       height: '50px',
 
     }
+    .infoAboutMe {
+        text-align: right;
+    
+    }
     
     }
 @media screen and (max-width:581px) {
