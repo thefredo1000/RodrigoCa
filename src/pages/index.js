@@ -39,7 +39,7 @@ const IndexPage = () => (
       margin:'0px',}}>
          <div style={{
                  backgroundColor:'#FFFFFF',
-                 paddingTop:'30px',}}>
+                 paddingTop:'33px',}}>
     <div style={{
                  maxWidth:'960px',
                  marginLeft:'auto',
@@ -92,12 +92,19 @@ const IndexPage = () => (
                  backgroundColor:'#f2f2f5',
                  paddingTop:'70px',}}>
     <div style={{
-                 maxWidth:'960px',
+                 maxWidth:'1100px',
                  marginLeft:'auto',
                  marginRight:'auto'
                 }}>
                 <h2 style={{fontSize: '40px', padding: '10px'}}>Who am I?</h2>
-                <div><img src={rodrigoSnow} style={{height:"400px", borderRadius:"5px", textAlign:"center", margin:'10px'}}></img></div>
+                <div style={{
+                justifyContent: 'center',
+                display: 'inline',
+                alignItems:'center',}}><table>
+                  <tr><img src={rodrigoSnow} style={{height:"400px", borderRadius:"5px", textAlign:"center", margin:'10px'}}></img></tr>
+                  <tr><img src={rodrigoSnow} style={{height:"400px", borderRadius:"5px", textAlign:"center", margin:'10px'}}></img></tr>
+                  <img src={rodrigoSnow} style={{height:"400px", borderRadius:"5px", textAlign:"center", margin:'10px'}}></img>
+                </table></div>
       </div>
 
     </div>
