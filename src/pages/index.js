@@ -56,7 +56,7 @@ const IndexPage = () => (
                 ><img className="imgRodrigoSnow" src={rodrigoSnow} style={{maxHeight:"400px", borderRadius:"5px", textAlign:"right", margin:'10px'}}></img></div>
                 <div className="infoAboutMe"><h3>About Me</h3>
                 <p className="infoTextAboutMe">I am a undergraduate student in computer science at the Tecnologico de Monterrey, with experience developing websites, iOS apps, videogames and software. I love learning new things and I am always open to learning better stuff for the future.</p></div>
-                </div>
+                </div><div style={{height:"10px"}}></div>
       </div>
 
     </div>
