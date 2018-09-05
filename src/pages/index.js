@@ -12,11 +12,21 @@ const IndexPage = () => (
 
   <div>
 
-    <Parallax    strength={-200}  bgImage={require('../images/rodrigoblackandwhite.png')}>
+    <Parallax    strength={100}  bgImage={require('../images/rodrigoblackandwhite.png')}>
 
-    <div style={{height:'805px'}}>                
+    <div style={{}}>                
     
-    <div ><img src={logo} style={{height:"400px", borderRadius:"0px", textAlign:"center", margin:'200px 475px', }}></img></div>
+    <div  
+    style={{
+      alignItems:'center',
+      justifyContent: 'center',
+      display: 'flex',
+      margin: 'auto auto',
+      maxWidth: 1300,
+      paddingTop: '10%',
+      paddingBottom: '10%',
+    }}>
+    <img className="myLogo" src={logo} style={{maxHeight:'530px', borderRadius:"0px", textAlign:"center",}}></img></div>
     
     </div>
 
@@ -41,7 +51,7 @@ const IndexPage = () => (
     </div>
     <Parallax
     blur={{ min: -0, max: 0 }}
-    bgImage={require('../images/rodrigobackground2.png')}
+    bgImage={require('../images/rodrigobackgroundbnw.png')}
     bgImageAlt="rorris"
     strength={100}
     bgStyle= {{
