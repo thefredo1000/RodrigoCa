@@ -39,13 +39,13 @@ const IndexPage = () => (
       margin:'0px',}}>
          <div style={{
                  backgroundColor:'#FFFFFF',
-                 paddingTop:'50px',}}>
+                 paddingTop:'30px',}}>
     <div style={{
                  maxWidth:'960px',
                  marginLeft:'auto',
                  marginRight:'auto',
                 }}>
-                <h2 style={{fontSize: '50px', padding: '10px'}}>Who am I?</h2>
+                <h2 style={{fontSize: '50px', padding: '10px',}}>Who am I?</h2>
                 <div style={{
                 
                 justifyContent: 'center',
@@ -54,8 +54,8 @@ const IndexPage = () => (
                   style={{alignItems:'center',}}
                 
                 ><img className="imgRodrigoSnow" src={rodrigoSnow} style={{maxHeight:"400px", borderRadius:"5px", textAlign:"right", margin:'10px'}}></img></div>
-                <div className="infoAboutMe"><br></br><h3>Im a cool kid</h3>
-                <p className="infoTextAboutMe">I am a young IT student from México, with passion to learn and create big things.</p></div>
+                <div className="infoAboutMe"><h3>About Me</h3>
+                <p className="infoTextAboutMe">I am a undergraduate student in computer science at the Tecnologico de Monterrey, with experience developing websites, iOS apps, videogames and software. I love learning new things and I am always open to learning better stuff for the future.</p></div>
                 </div>
       </div>
 
@@ -82,7 +82,7 @@ const IndexPage = () => (
     }}> 
 
         <div className='cobo'>
-          <h1 className='imUrFav'>ABOUT ME...</h1>
+          <h1 className='imUrFav'>PROJECTS</h1>
         </div>
 
     </div>   
