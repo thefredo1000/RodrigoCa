@@ -24,7 +24,7 @@ const IndexPage = () => (
       margin: 'auto auto',
       maxWidth: 1300,
       paddingTop: '10%',
-      paddingBottom: '8%',
+      paddingBottom: '10%',
       paddingLeft: '5%',
       paddingRight: '5%',
     }}>
@@ -53,9 +53,9 @@ const IndexPage = () => (
                 }}><div
                   style={{alignItems:'center',}}
                 
-                ><img src={rodrigoSnow} style={{maxHeight:"400px", borderRadius:"5px", textAlign:"center", margin:'10px'}}></img></div>
-                <div><br></br><h3>Im a cool kid</h3>
-                <p>I am a young programmer</p></div>
+                ><img className="imgRodrigoSnow"src={rodrigoSnow} style={{maxHeight:"400px", borderRadius:"5px", textAlign:"right", margin:'10px'}}></img></div>
+                <div className="infoAboutMe"><br></br><h3>Im a cool kid</h3>
+                <p className="infoTextAboutMe">I am a young programmer</p></div>
                 </div>
       </div>
 

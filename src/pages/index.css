@@ -36,6 +36,7 @@ h2 {
         }
 @media screen and (max-width:716px) {
  
+
     h1 {
       font-size: 50px;
     }
@@ -45,8 +46,7 @@ h2 {
       height: '50px',
 
     }
-     
-     
+    
     }
 @media screen and (max-width:581px) {
      
@@ -57,7 +57,28 @@ h2 {
     h5 {
         font-size: 10px;
       }
+
        
+    .infoAboutMe {
+
+        padding-right: 10px;
+
+    }
+    h3 {
+
+        font-size: 20px;
+
+    }
+    .infoTextAboutMe {
+
+        font-size: 14px;
+
+    }
+    .imgRodrigoSnow {
+
+        width: 260px;
+
+    }
 }
 
 @media screen and (max-width:442px) {
@@ -65,8 +86,21 @@ h2 {
     h1 {
          font-size: 50px;
     }
-          
-     
+    h3 {
+
+        font-size: 15px;
+
+    }
+    .infoTextAboutMe {
+
+        font-size: 12px;
+
+    }
+    .imgRodrigoSnow {
+
+        width: 230px;
+
+    }
  }
 
 .intro2 {
