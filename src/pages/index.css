@@ -19,6 +19,12 @@ h2 {
 .infoAboutMe {
     font-weight: 400;
     font-family: 'Ubuntu', sans-serif;
+    max-width: 300px;
+
+}
+h3 {
+
+    font-size: 30px;
 
 }
 
@@ -53,7 +59,7 @@ h2 {
     }
     .infoAboutMe {
         text-align: right;
-    
+        max-width: 220px;
     }
     
     }
@@ -75,7 +81,7 @@ h2 {
     }
     h3 {
 
-        font-size: 20px;
+        font-size: 25px;
 
     }
     .infoTextAboutMe {
@@ -88,6 +94,9 @@ h2 {
         width: 260px;
 
     }
+    .infoAboutMe {
+        max-width: 200px;
+    }
 }
 
 @media screen and (max-width:442px) {
@@ -97,7 +106,7 @@ h2 {
     }
     h3 {
 
-        font-size: 15px;
+        font-size: 25px;
 
     }
     .infoTextAboutMe {
@@ -109,6 +118,9 @@ h2 {
 
         width: 230px;
 
+    }
+    .infoAboutMe {
+        max-width: 150px;
     }
  }
 
