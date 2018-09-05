@@ -4,7 +4,7 @@ import React from 'react'
 import './index.css'
 import { Parallax, Background } from 'react-parallax';
 import rodrigoSnow from '../images/meinthesnowbnw.png';
-import logo from '../images/logoshadow.png';
+import logo from '../images/logo.png';
 
 
 const IndexPage = () => (
@@ -23,12 +23,12 @@ const IndexPage = () => (
       display: 'flex',
       margin: 'auto auto',
       maxWidth: 1300,
-      paddingTop: '10%',
+      paddingTop: '9%',
       paddingBottom: '9%',
       paddingLeft: '5%',
       paddingRight: '5%',
     }}>
-    <img className="myLogo" src={logo} style={{maxHeight:'530px', borderRadius:"0px", textAlign:"left", boxShadow: '0 0 20px 0px black'}}></img></div>
+    <img className="myLogo" src={logo} style={{maxHeight:'530px', borderRadius:"0px", textAlign:"left", }}></img></div>
     
     </div>
 

@@ -5,7 +5,7 @@ import Helmet from 'react-helmet'
 import Header from '../components/header'
 import './index.css'
 import { Parallax, Background } from 'react-parallax';
-import four from '../images/4335.ico'
+import four from '../images/happiness.png'
 
 
 const Layout = ({ children, data }) => (
@@ -16,11 +16,10 @@ const Layout = ({ children, data }) => (
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
-      href={four}
+      link={[
+        { rel: 'shortcut icon', type: 'image/png', href: `${four}` }
+       ]}
     />
-
-    <link rel="shortcut icon" href={four} />
-
      <div> {children()}</div>
 
   </div>
