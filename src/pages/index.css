@@ -23,9 +23,15 @@ h2 {
     max-width: 300px;
     margin-top: 5%;
 }
+.infoTextAboutMe {
+
+    margin-top: 0%;
+
+}
 h3 {
 
     font-size: 30px;
+    margin-bottom: 3%;
 
 }
 
@@ -136,4 +142,9 @@ h3 {
 
     height: '1000px';
 
+}
+@media screen and (max-width:405px) {
+    .infoAboutMe {
+        max-width: 170px;
+    }
 }
