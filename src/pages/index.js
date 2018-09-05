@@ -53,9 +53,9 @@ const IndexPage = () => (
                 }}><div
                   style={{alignItems:'center',}}
                 
-                ><img className="imgRodrigoSnow"src={rodrigoSnow} style={{maxHeight:"400px", borderRadius:"5px", textAlign:"right", margin:'10px'}}></img></div>
+                ><img className="imgRodrigoSnow" src={rodrigoSnow} style={{maxHeight:"400px", borderRadius:"5px", textAlign:"right", margin:'10px'}}></img></div>
                 <div className="infoAboutMe"><br></br><h3>Im a cool kid</h3>
-                <p className="infoTextAboutMe">I am a young programmer</p></div>
+                <p className="infoTextAboutMe">I am a young programmer :)</p></div>
                 </div>
       </div>
 
