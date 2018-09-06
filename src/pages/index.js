@@ -109,7 +109,8 @@ const IndexPage = () => (
                 ><img className="imgProject" src={roult} style={{maxHeight:"300px", borderRadius:"5px", textAlign:"right", marginBottom:'0'}}></img></div>
                 </div>                
                 <div className="infoAboutProject" style={{textAlign: 'center', margin:'0 auto', maxWidth:'500px', padding:'20px', paddingTop:'10px'}}><h3 style={{fontSize:'27'}}>ROULT 4403</h3>
-                <p className="infoTextAboutProject">I joined FRC (FIRST Robotic Competition) in 2018 with the team ROULT 4403, I was part of the programming subdivision, but I was highly involved in the mecatronics and chairmans subdivisions too. This experience taught me more than robotics, it taught me social skills as leadership and communication. I had international experience assisting to the Little Rock, Arkansas FRC regional. </p>
+                <p className="infoTextAboutProject">
+                I joined FRC (FIRST Robotic Competition) in 2018 with the team ROULT 4403. My main area was the programming subdivision but I was highly involved in the mechatronics and chairmans subdivisions. This experience taught me more than just robotics, but it also taught me social skills as leadership and communication. I had international experience assisting to the Little Rock, Arkansas FRC regional.                </p>
                 </div>
                 
                 <div style={{
@@ -123,7 +124,8 @@ const IndexPage = () => (
                 ><img className="imgProject" src={hack} style={{maxHeight:"300px", borderRadius:"5px", textAlign:"right", marginBottom:'0'}}></img></div>
                 </div>                
                 <div className="infoAboutProject" style={{textAlign: 'center', margin:'0 auto', maxWidth:'500px', padding:'20px', paddingTop:'10px'}}><h3 style={{fontSize:'27'}}>HACK MTY 2018</h3>
-                <p className="infoTextAboutProject">I participated on the Hack MTY 2018, which is a Hackathon in the Tec de Monterrey, creating a website with a team of developers. I am always trying to improve and learn everything I can, with my friends it is always fun to be part of these type of events.</p>
+                <p className="infoTextAboutProject">
+                I participated in the Hack MTY 2018: a Hackathon in Tecnologico de Monterrey, in which I created a website with a team of developers. I always try to improve and gain as much knowledge as possible. I also enjoy these kind of events because I‘m always open to make new friends and creating experiences.                </p>
                 </div></div>
 
       </div>
