@@ -7,6 +7,7 @@ import rodrigoSnow from '../images/meinthesnowbnw.png';
 import logo from '../images/logoshadow.png';
 import roult from '../images/roult.jpg';
 import hack from '../images/hack.png';
+import glasses from '../images/mewithglasses.jpg';
 
 
 const IndexPage = () => (
@@ -58,7 +59,10 @@ const IndexPage = () => (
                 ><img className="imgRodrigoSnow" src={rodrigoSnow} style={{maxHeight:"400px", borderRadius:"5px", textAlign:"right", margin:'10px'}}></img></div>
                 <div className="infoAboutMe"><h3>About Me</h3>
                 <p className="infoTextAboutMe">I am a undergraduate student in computer science at the Tecnologico de Monterrey, with experience developing websites, iOS apps, videogames and software. I love learning new things and I am always open to learning better stuff for the future.</p></div>
-                </div><div style={{height:"10px"}}></div>
+                
+                </div>
+                <div className="infoTextAboutMe" style={{textAlign:"left", maxWidth:'400px', margin:'0 auto', fontFamily: 'Ubuntu', lineHeight:''}}><p style={{margin:'0 30px'}}>I've had several experiences programming, which they have brought me more than knowledge, they have a special place in my heart. I've had experiences programming in Python, C, C#, Swift and Javascript, you can take a look at my projects, which those game me several skills, technical, analytical and social, helping me to get the job done.</p></div>
+                <div style={{height:"20px"}}></div>
       </div>
 
     </div>
@@ -129,7 +133,32 @@ const IndexPage = () => (
                 </div></div>
 
       </div>
+      <Parallax
+    blur={{ min: -0, max: 0 }}
+    bgImage={require('../images/meprogramming.jpg')}
+    bgImageAlt="rorris"
+    strength={100}
+    bgStyle= {{
+      backgroundPosition: 'center center',
 
+    }}
+    >
+      
+    <div 
+    style={{
+      margin: '0 auto',
+      maxWidth: 1300,
+      padding: '1rem 1.0875rem 1rem',
+      paddingTop: '2.5rem',
+      marginBottom:'0'
+    }}> 
+
+        <div className='cobo'>
+          <h1 className='imUrFav'>MORE ABOUT ME</h1>
+        </div>
+
+    </div>   
+     </Parallax>
     </div>
   
 )
