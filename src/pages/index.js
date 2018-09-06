@@ -6,6 +6,7 @@ import { Parallax, Background } from 'react-parallax';
 import rodrigoSnow from '../images/meinthesnowbnw.png';
 import logo from '../images/logoshadow.png';
 import roult from '../images/roult.jpg';
+import hack from '../images/hack.png';
 
 
 const IndexPage = () => (
@@ -89,9 +90,9 @@ const IndexPage = () => (
     </div>   
      </Parallax>
 
-    <div style={{height:'1000px',
+    <div style={{
                  backgroundColor:'#f4f4f4',
-                 paddingTop:'70px',}}>
+                 paddingTop:'33px',}}>
     <div style={{
                  maxWidth:'1100px',
                  marginLeft:'auto',
@@ -105,14 +106,28 @@ const IndexPage = () => (
                 }}><div
                   style={{alignItems:'center', padding:'10px'}}
                 
-                ><img className="imgProject" src={roult} style={{maxHeight:"400px", borderRadius:"5px", textAlign:"right", marginBottom:'0'}}></img></div>
+                ><img className="imgProject" src={roult} style={{maxHeight:"300px", borderRadius:"5px", textAlign:"right", marginBottom:'0'}}></img></div>
                 </div>                
                 <div className="infoAboutProject" style={{textAlign: 'center', margin:'0 auto', maxWidth:'500px', padding:'20px', paddingTop:'10px'}}><h3 style={{fontSize:'27'}}>ROULT 4403</h3>
-                <p className="infoTextAboutProject">I joined the FRC (FIRST Robotic Competition) in 2018 on the team ROULT 4403, I was part of the programming subdivision, but I was highly involved in the mecatronics and chairmans subdivisions too. This experience taught me more than robotics, it taught me social skills as leadership and communication. I had international experience assisting to the Little Rock, Arkansas FRC regional. </p></div>
+                <p className="infoTextAboutProject">I joined the FRC (FIRST Robotic Competition) in 2018 on the team ROULT 4403, I was part of the programming subdivision, but I was highly involved in the mecatronics and chairmans subdivisions too. This experience taught me more than robotics, it taught me social skills as leadership and communication. I had international experience assisting to the Little Rock, Arkansas FRC regional. </p>
+                </div>
+                
+                <div style={{
+                
+                justifyContent: 'center',
+                display: 'flex',
+                }}>
+                <div
+                  style={{alignItems:'center', padding:'10px'}}
+                
+                ><img className="imgProject" src={hack} style={{maxHeight:"300px", borderRadius:"5px", textAlign:"right", marginBottom:'0'}}></img></div>
+                </div>                
+                <div className="infoAboutProject" style={{textAlign: 'center', margin:'0 auto', maxWidth:'500px', padding:'20px', paddingTop:'10px'}}><h3 style={{fontSize:'27'}}>HACK MTY 2018</h3>
+                <p className="infoTextAboutProject">I participated on the Hack MTY 2018, which is a Hackathon in the Tec de Monterrey, creating a website with a team of developers. I am always trying to improve and learn everything I can, with my friends it is always fun to be part of these type of events.</p>
+                </div></div>
 
       </div>
 
-    </div>
     </div>
   
 )
