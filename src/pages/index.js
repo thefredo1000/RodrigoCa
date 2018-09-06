@@ -109,7 +109,7 @@ const IndexPage = () => (
                 ><img className="imgProject" src={roult} style={{maxHeight:"300px", borderRadius:"5px", textAlign:"right", marginBottom:'0'}}></img></div>
                 </div>                
                 <div className="infoAboutProject" style={{textAlign: 'center', margin:'0 auto', maxWidth:'500px', padding:'20px', paddingTop:'10px'}}><h3 style={{fontSize:'27'}}>ROULT 4403</h3>
-                <p className="infoTextAboutProject">I joined the FRC (FIRST Robotic Competition) in 2018 on the team ROULT 4403, I was part of the programming subdivision, but I was highly involved in the mecatronics and chairmans subdivisions too. This experience taught me more than robotics, it taught me social skills as leadership and communication. I had international experience assisting to the Little Rock, Arkansas FRC regional. </p>
+                <p className="infoTextAboutProject">I joined FRC (FIRST Robotic Competition) in 2018 with the team ROULT 4403, I was part of the programming subdivision, but I was highly involved in the mecatronics and chairmans subdivisions too. This experience taught me more than robotics, it taught me social skills as leadership and communication. I had international experience assisting to the Little Rock, Arkansas FRC regional. </p>
                 </div>
                 
                 <div style={{
