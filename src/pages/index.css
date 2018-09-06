@@ -171,6 +171,13 @@ h3 {
         max-width: 200px;
         line-height: 1.3rem;
     }
+    .moreAboutMe {
+
+        line-height: 1.3rem;
+
+
+    }
+
  }
 
 .intro2 {
@@ -200,6 +207,13 @@ h3 {
         font-size: 13px;
 
     }
+
+    .moreAboutMe {
+
+        line-height: 1.2rem;
+
+
+    }
 }
 @media screen and (max-width:405px) {
 
@@ -212,5 +226,11 @@ h3 {
         max-width: 150px;
         line-height: 1rem;
         text-align: left;
+    }
+    .moreAboutMe {
+
+        line-height: 1rem;
+
+
     }
 }
