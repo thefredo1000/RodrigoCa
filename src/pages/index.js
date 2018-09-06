@@ -4,7 +4,8 @@ import React from 'react'
 import './index.css'
 import { Parallax, Background } from 'react-parallax';
 import rodrigoSnow from '../images/meinthesnowbnw.png';
-import logo from '../images/logo.png';
+import logo from '../images/logoshadow.png';
+import roult from '../images/roult.jpg';
 
 
 const IndexPage = () => (
@@ -38,7 +39,7 @@ const IndexPage = () => (
     style={{
       margin:'0px',}}>
          <div style={{
-                 backgroundColor:'#FFFFFF',
+                 backgroundColor:'#f4f4f4',
                  paddingTop:'33px',}}>
     <div style={{
                  maxWidth:'960px',
@@ -89,22 +90,26 @@ const IndexPage = () => (
      </Parallax>
 
     <div style={{height:'1000px',
-                 backgroundColor:'#f2f2f5',
+                 backgroundColor:'#f4f4f4',
                  paddingTop:'70px',}}>
     <div style={{
                  maxWidth:'1100px',
                  marginLeft:'auto',
                  marginRight:'auto'
                 }}>
-                <h2 style={{fontSize: '40px', padding: '10px'}}>Who am I?</h2>
+                <h2 style={{fontSize: '50px', padding: '10px'}}>Main Projects</h2>
                 <div style={{
+                
                 justifyContent: 'center',
-                display: 'inline',
-                alignItems:'center',}}><table>
-                  <tr><img src={rodrigoSnow} style={{height:"400px", borderRadius:"5px", textAlign:"center", margin:'10px'}}></img></tr>
-                  <tr><img src={rodrigoSnow} style={{height:"400px", borderRadius:"5px", textAlign:"center", margin:'10px'}}></img></tr>
-                  <img src={rodrigoSnow} style={{height:"400px", borderRadius:"5px", textAlign:"center", margin:'10px'}}></img>
-                </table></div>
+                display: 'flex',
+                }}><div
+                  style={{alignItems:'center', padding:'10px'}}
+                
+                ><img className="imgProject" src={roult} style={{maxHeight:"400px", borderRadius:"5px", textAlign:"right", marginBottom:'0'}}></img></div>
+                </div>                
+                <div className="infoAboutProject" style={{textAlign: 'center', margin:'0 auto', maxWidth:'500px', padding:'20px', paddingTop:'10px'}}><h3 style={{fontSize:'27'}}>ROULT 4403</h3>
+                <p className="infoTextAboutProject">I joined the FRC (FIRST Robotic Competition) in 2018 on the team ROULT 4403, I was part of the programming subdivision, but I was highly involved in the mecatronics and chairmans subdivisions too. This experience taught me more than robotics, it taught me social skills as leadership and communication. I had international experience assisting to the Little Rock, Arkansas FRC regional. </p></div>
+
       </div>
 
     </div>

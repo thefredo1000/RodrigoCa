@@ -1,13 +1,12 @@
 h1 {
     font-size: 75px;
-    color: #EAF2EF;
+    color: white;
     
 }
 
 .imUrFav {
 
     font-family: 'Catamaran', 'source sans pro';
-    
 
 }
 
@@ -30,9 +29,18 @@ h2 {
 
 }
 h3 {
+    font-family: 'Ubuntu', sans-serif;
 
     font-size: 30px;
     margin-bottom: 3%;
+
+}
+
+.infoTextAboutProject {
+
+
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
 
 }
 
@@ -183,6 +191,13 @@ h3 {
     .infoTextAboutMe {
 
         font-size: 10px;
+
+    }
+    .infoTextAboutProject {
+
+
+        line-height: 1.2rem;
+        font-size: 13px;
 
     }
 }
