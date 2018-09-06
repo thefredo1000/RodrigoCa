@@ -133,32 +133,7 @@ const IndexPage = () => (
                 </div></div>
 
       </div>
-      <Parallax
-    blur={{ min: -0, max: 0 }}
-    bgImage={require('../images/meprogramming.jpg')}
-    bgImageAlt="rorris"
-    strength={100}
-    bgStyle= {{
-      backgroundPosition: 'center center',
-
-    }}
-    >
       
-    <div 
-    style={{
-      margin: '0 auto',
-      maxWidth: 1300,
-      padding: '1rem 1.0875rem 1rem',
-      paddingTop: '2.5rem',
-      marginBottom:'0'
-    }}> 
-
-        <div className='cobo'>
-          <h1 className='imUrFav'>MORE ABOUT ME</h1>
-        </div>
-
-    </div>   
-     </Parallax>
     </div>
   
 )
