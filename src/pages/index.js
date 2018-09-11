@@ -133,7 +133,7 @@ const IndexPage = () => (
                 </div></div>
 
       </div>
-      
+      <div style={{margin: "0 auto", height: "50px", backgroundColor: "#262626", fontFamily: "Ubuntu",justifyContent: 'center', display: 'flex', padding:'10px', color:'white'}} >Website made by Rodrigo Casale :)</div>
     </div>
   
 )
