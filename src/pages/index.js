@@ -144,7 +144,7 @@ const IndexPage = () => (
                 </div>                
                 <div className="infoAboutProject" style={{textAlign: 'center', margin:'0 auto', maxWidth:'500px', padding:'20px', paddingTop:'10px'}}><h3 style={{fontSize:'27'}}>ROULT: THE VIDEOGAME</h3>
                 <p className="infoTextAboutProject">
-                For the Laguna FRC Regional I build an arcade machine for the people to play. I programmed the game and designed the assets based on the ROULT aesthetics, then I built the arcade machine from recycled materials and unused electronic parts. The game was a total success in the regional since almost everyone from kids to adults wanted to try the game. Also I made a GameBoy Advance port for this game, and you can <a href="https://mega.nz/#!NAVlWACC!BqCdjagU701xN7Waqn3_jwywwW7fK9PzoVGJ4CSnpC0" target="_blank">download it here.</a>                </p>
+                For the Laguna Regional I built an arcade machine for the people to play. I programmed the game and designed the assets based on ROULT, then I built the arcade machine from recycled materials and unused electronic parts. The game was a total success in the regional since almost wanted to try the game. Also I made a GameBoy Advance port for this game, and you can <a href="https://mega.nz/#!NAVlWACC!BqCdjagU701xN7Waqn3_jwywwW7fK9PzoVGJ4CSnpC0" target="_blank">download it here.</a>                </p>
                 </div>
                 </div>
 
