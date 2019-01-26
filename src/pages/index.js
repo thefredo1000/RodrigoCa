@@ -7,6 +7,7 @@ import rodrigoSnow from '../images/meinthesnowbnw.png';
 import logo from '../images/logoshadow.png';
 import roult from '../images/roult.jpg';
 import hack from '../images/hack.png';
+import arcade from '../images/arcade.png';
 import glasses from '../images/mewithglasses.jpg';
 
 
@@ -130,7 +131,22 @@ const IndexPage = () => (
                 <div className="infoAboutProject" style={{textAlign: 'center', margin:'0 auto', maxWidth:'500px', padding:'20px', paddingTop:'10px'}}><h3 style={{fontSize:'27'}}>HACK MTY 2018</h3>
                 <p className="infoTextAboutProject">
                 I participated in the Hack MTY 2018: a Hackathon in Tecnologico de Monterrey, in which I created a website with a team of developers. I always try to improve and gain as much knowledge as possible. I also enjoy these kind of events because I‘m always open to make new friends and creating experiences.                </p>
-                </div></div>
+                </div>
+                <div style={{
+                
+                justifyContent: 'center',
+                display: 'flex',
+                }}>
+                <div
+                  style={{alignItems:'center', padding:'10px'}}
+                
+                ><img className="imgProject" src={arcade} style={{maxHeight:"300px", borderRadius:"5px", textAlign:"right", marginBottom:'0'}}></img></div>
+                </div>                
+                <div className="infoAboutProject" style={{textAlign: 'center', margin:'0 auto', maxWidth:'500px', padding:'20px', paddingTop:'10px'}}><h3 style={{fontSize:'27'}}>ROULT: THE VIDEOGAME</h3>
+                <p className="infoTextAboutProject">
+                For the Laguna FRC Regional I build an arcade machine for the people to play. I programmed the game and designed the assets based on the ROULT aesthetics, then I built the arcade machine from recycled materials and unused electronic parts. The game was a total success in the regional since almost everyone from kids to adults wanted to try the game. Also I made a GameBoy Advance port for this game, and you can <a href="../downloads/RoultGBA.zip" download>download it here.</a>                </p>
+                </div>
+                </div>
 
       </div>
       <div style={{margin: "0 auto", height: "50px", backgroundColor: "#262626", fontFamily: "Ubuntu",justifyContent: 'center', display: 'flex', padding:'10px', color:'white'}} >Website made by Rodrigo Casale :)</div>
