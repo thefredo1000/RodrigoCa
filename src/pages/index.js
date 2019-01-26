@@ -61,7 +61,7 @@ const IndexPage = () => (
                 <p className="infoTextAboutMe">I am a undergraduate student in computer science at the Tecnologico de Monterrey, with experience developing websites, iOS apps, videogames and software. I love learning new things and I am always open to learning better stuff for the future.</p></div>
                 
                 </div>
-                <div className="infoTextAboutMe moreAboutMe" style={{textAlign:"left", maxWidth:'600px', margin:'0 auto', fontFamily: 'Ubuntu', lineHeight:''}}><p style={{margin:'0 30px'}}>I've had several experiences programming, which they have brought me more than knowledge, they have a special place in my heart. I've had experiences programming in Python, C, C#, Swift and Javascript, you can take a look at my projects, which those game me several skills, technical, analytical and social, helping me to get the job done.</p></div>
+                <div className="infoTextAboutMe moreAboutMe" style={{textAlign:"left", maxWidth:'600px', margin:'0 auto', fontFamily: 'Ubuntu', lineHeight:''}}><p style={{margin:'0 30px'}}>I've had several experiences programming, which they have brought me more than knowledge, they have a special place in my heart. I've had experiences programming in Python, C, C#, Swift and Javascript, you can take a look at my projects, which those gave me several skills, technical, analytical and social, helping me to get the job done.</p></div>
                 <div style={{height:"20px"}}></div>
       </div>
 
