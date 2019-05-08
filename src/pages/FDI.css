@@ -3,7 +3,10 @@ body{
 }
 
 h1{
-    color: #282828;
+    color: rgb(43, 48, 61);
+}
+h2{
+    color: white;
 }
 .cobo{
     padding-top: 20px;
@@ -12,4 +15,14 @@ h1{
 .si{
     padding: fixed;
     width: 300px;
+}
+.chi{
+    color: #282828;
+    margin: auto;
+    background-color: #2b303d;
+    padding-top: 20px;
+    padding-bottom: 1px;
+    width: 800px;
+    margin-bottom: 20px;
+    border-radius: 2px;
 }
