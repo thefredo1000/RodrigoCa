@@ -14,7 +14,7 @@ h2{
 
 .si{
     padding: fixed;
-    width: 300px;
+    max-width: 300px;
 }
 .chi{
     color: #282828;
