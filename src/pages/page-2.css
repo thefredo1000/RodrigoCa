@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    font-family: "Comic Sans MS";
+    background-color: gainsboro;
+}
+h1{
+    color: white;
+}
+
+.links {
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tables {
+    width: 200px;
+    text-align: center;
+}

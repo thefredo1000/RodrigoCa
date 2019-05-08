@@ -15,7 +15,7 @@ const IndexPage = () => (
 
 
   <div>
-
+    <header></header>
     <Parallax    strength={100}  bgImage={require('../images/rodrigoblackandwhite.png')}>
 
     <div style={{}}>                
