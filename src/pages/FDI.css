@@ -8,3 +8,8 @@ h1{
 .cobo{
     padding-top: 20px;
 }
+
+.si{
+    padding: fixed;
+    width: 300px;
+}
