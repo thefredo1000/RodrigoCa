@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "/anaconda3/bin/python",
+    "python.pythonPath": "/Users/rodrigocasale/anaconda3/bin/python",
     "files.associations": {
         "iostream": "cpp"
     },
