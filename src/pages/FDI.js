@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 
 import './FDI.css'
 const SecondPage = () => (
-  <div className="cobo2">
+  <div className="cobo">
     <div className="chi"><h1>AMIGA</h1><h2>Beta 1.0</h2></div>
     <iframe
         allow="microphone;"
